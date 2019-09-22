@@ -1,0 +1,54 @@
+* {
+  /*font-family: "Quicksand", sans-serif;*/
+  scroll-behavior: smooth;
+}
+
+h2{
+	padding-top: 96px;
+	padding-left: 24px;
+}
+
+.konten-materi{
+	padding-left: 48px;
+}
+
+.latihan{
+	padding-left: 24px;
+}
+
+.handson{
+	padding-top: 60px;
+	padding-left: 24px;
+}
+
+.kelompok{
+	padding-top: 60px;
+	padding-left: 24px;
+	padding-bottom: 60px;
+}
+
+.wrapper-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+	height: 240px; 
+	width: 330px;
+	margin: 12px;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform .2s;
+}
+
+.card:hover {
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Safari 3-8 */
+  transform: scale(1.25); 
+}
+
+#image{
+	height: 200px;
+	width: 270px;
+}
